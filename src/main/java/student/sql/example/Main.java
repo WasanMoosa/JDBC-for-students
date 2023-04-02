@@ -24,15 +24,15 @@ public class Main {
 
 
             // Create Student
-//            statement.execute("insert into student (name, email) values('wasan', 'wasan@gmail.com')");
+            statement.execute("insert into student (name, email) values('wasan', 'wasan@gmail.com')");
 
             // Update student
-//            statement.executeUpdate("update student " +
-//                                        "set email ='wasan1999@gmail.com' " +
-//                                        "where id ='1'");
+            statement.executeUpdate("update student " +
+                                        "set email ='wasan1999@gmail.com' " +
+                                        "where id ='1'");
 
             // delete student
-//            statement.execute("delete from student where id ='1'");
+            statement.execute("delete from student where id ='1'");
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
